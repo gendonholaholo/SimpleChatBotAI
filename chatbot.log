@@ -54,3 +54,49 @@ I'm here to help, just let me know what you need! 😊
 
 Meskipun masih dalam pengembangan, LangGraph menunjukkan potensi besar untuk meningkatkan kemampuan chatbot dalam memahami dan merespons bahasa manusia secara lebih akurat dan alami.
 
+2025-03-11 12:47:30,577 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-11 12:47:30,581 - INFO - User: Halo
+2025-03-11 12:47:30,581 - INFO - Chatbot: Halo! 👋
+
+Bagaimana kabarmu hari ini? 😊
+
+2025-03-11 12:47:31,734 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-11 12:47:31,773 - INFO - User: 
+2025-03-11 12:47:31,773 - INFO - Chatbot: Please provide me with the context or the question you have. I need more information to be able to assist you. 
+
+For example, do you want to:
+
+* **Write a story?** Tell me the genre, characters, or plot idea.
+* **Get information?** Ask me a specific question about a topic.
+* **Translate something?** Give me the text and the target language.
+* **Generate code?** Tell me the programming language and what you want the code to do.
+
+
+I'm here to help, just let me know what you need! 
+
+2025-03-11 12:47:53,048 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-11 12:47:53,052 - INFO - User: Kapan dunia akan kiamat?
+2025-03-11 12:47:53,052 - INFO - Chatbot: Sebagai model bahasa AI, aku tidak punya akses ke informasi masa depan, termasuk kapan dunia akan kiamat.
+
+Pertanyaan tentang kiamat merupakan pertanyaan kompleks dan telah didebatkan oleh berbagai agama dan filosofi selama berabad-abad. Tidak ada jawaban pasti yang memuaskan semua orang.
+
+Beberapa keyakinan mengajarkan bahwa kiamat adalah peristiwa akhir dunia yang akan terjadi di masa depan, sementara yang lain melihatnya sebagai sebuah konsep metaforis tentang kehancuran atau penciptaan kembali.
+
+Alih-alih fokus pada kiamat, mungkin lebih bermanfaat untuk memikirkan bagaimana kita dapat hidup sebaik mungkin sekarang dan berkontribusi terhadap dunia yang lebih baik.
+
+2025-03-11 15:04:22,647 - INFO - Retrying request to /openai/v1/chat/completions in 0.397224 seconds
+2025-03-11 15:04:31,497 - INFO - Retrying request to /openai/v1/chat/completions in 0.750432 seconds
+2025-03-11 15:04:38,046 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-11 15:04:38,046 - INFO - User: Kamu paham tentang apa saja?
+2025-03-11 15:04:38,046 - INFO - Chatbot: Sebagai model bahasa besar, saya dirancang untuk memahami dan menghasilkan teks. Saya dilatih pada dataset teks yang sangat besar dan dapat melakukan berbagai tugas, termasuk:
+
+* **Menjawab pertanyaan:** Saya dapat memberikan jawaban untuk pertanyaan berdasarkan pengetahuan yang saya dapatkan dari pelatihan.
+* **Menerjemahkan bahasa:** Saya dapat menerjemahkan teks dari satu bahasa ke bahasa lainnya.
+* **Menulis cerita atau artikel:** Saya dapat membuat teks kreatif seperti cerita, puisi, atau artikel.
+* **Merangkum teks:** Saya dapat meringkas teks panjang menjadi versi yang lebih singkat.
+* **Berpikir logis:** Saya dapat melakukan beberapa tugas yang membutuhkan penalaran logis, seperti menyelesaikan teka-teki.
+
+Namun, penting untuk diingat bahwa saya adalah mesin dan hanya dapat memproses informasi yang ada dalam dataset pelatihan saya. Saya tidak memiliki pengalaman dunia nyata atau kesadaran.
+
+Apa yang ingin Anda ketahui lebih lanjut? Tanyakan saja!
+

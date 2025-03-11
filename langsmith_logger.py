@@ -1,12 +1,15 @@
 import logging
 import os
+from dotenv import load_dotenv
 
-LANGSMITH_API_KEY = os.getenv("LANGSMITH_API_KEY", "your-langsmith-api-key")
+load_dotenv()
+
 LANGSMITH_PROJECT_NAME = "AI Chatbot Sederhana"
 
+# Konfigurasi logging
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(levelname)s - %(message)s',
+    format="%(asctime)s - %(levelname)s - %(message)s",
     handlers=[
         logging.FileHandler("chatbot.log", encoding="utf-8"),
         logging.StreamHandler()
@@ -19,7 +22,7 @@ def log_interaction(user_input, chatbot_response):
         logging.info(f"User: {user_input}")
         logging.info(f"Chatbot: {chatbot_response}")
     except UnicodeEncodeError:
-        logging.info(f"Chatbot: [RESPONS TIDAK DAPAT DICETAK - MENGANDUNG KARAKTER KHUSUS]")
+        logging.info("Chatbot: [RESPONS TIDAK DAPAT DICETAK - MENGANDUNG KARAKTER KHUSUS]")
 
 if __name__ == "__main__":
     log_interaction("Halo", "Hai! Apa yang bisa saya bantu?")
