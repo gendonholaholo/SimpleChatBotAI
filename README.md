@@ -40,4 +40,4 @@ ai-chatbot/
 - Ketik `exit`, `keluar`, atau `quit` untuk keluar dari chatbot.
 
 ## Lisensi
-MIT License.
+~Mas Gendon
