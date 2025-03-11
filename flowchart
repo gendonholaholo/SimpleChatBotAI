@@ -1,0 +1,10 @@
+graph TD;
+    A[User Input] -->|Dikirim ke Chatbot| B[LangChain: Query ke LLM];
+    B -->|Jika pertanyaan umum| C[LangChain: Respons langsung dari Groq API];
+    B -->|Jika butuh percabangan| D[LangGraph: Tentukan Jalur Percakapan];
+    D -->|Cabang 1| E[Respons AI];
+    D -->|Cabang 2| F[LangGraph: Ambil data tambahan];
+    F --> G[Gabungkan Data & Kirim Respons];
+    C --> H[Log Interaksi dengan LangSmith];
+    G --> H;
+    H --> I[Jawaban dikirim ke User];
